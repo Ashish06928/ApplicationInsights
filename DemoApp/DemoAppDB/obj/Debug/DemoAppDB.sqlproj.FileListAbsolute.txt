@@ -1,0 +1,9 @@
+C:\Users\panka\source\repos\NewRepo\DemoApp\DemoAppDB\bin\Debug\DemoAppDB.dacpac
+C:\Users\panka\source\repos\NewRepo\DemoApp\DemoAppDB\bin\Debug\DemoAppDB.dll
+C:\Users\panka\source\repos\NewRepo\DemoApp\DemoAppDB\bin\Debug\DemoAppDB.pdb
+C:\Users\panka\source\repos\NewRepo\DemoApp\DemoAppDB\obj\Debug\DemoAppDB.dll
+C:\Users\panka\source\repos\NewRepo\DemoApp\DemoAppDB\obj\Debug\DemoAppDB.pdb
+C:\Users\panka\source\repos\NewRepo\DemoApp\DemoAppDB\obj\Debug\Model.xml
+C:\Users\panka\source\repos\NewRepo\DemoApp\DemoAppDB\obj\Debug\refactor.xml
+C:\Users\panka\source\repos\NewRepo\DemoApp\DemoAppDB\obj\Debug\postdeploy.sql
+C:\Users\panka\source\repos\NewRepo\DemoApp\DemoAppDB\obj\Debug\predeploy.sql

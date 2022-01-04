@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPITesting\\GenricAPITesting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPITesting\\GenricAPITesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPITesting\\GenricAPITesting.csproj",
+        "projectName": "GenricAPITesting",
+        "projectPath": "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPITesting\\GenricAPITesting.csproj",
+        "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPITesting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ashish06928/SonarQube/_packaging/loginFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ashish06928/d044fcca-1271-427c-9ae4-f765d08dfbd2/_packaging/myfeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPI\\GenricAPI.csproj": {
+                "projectPath": "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPI\\GenricAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPI\\GenricAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPI\\GenricAPI.csproj",
+        "projectName": "GenricAPI",
+        "projectPath": "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPI\\GenricAPI.csproj",
+        "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\panka\\source\\repos\\NewRepo\\DemoApp\\GenricAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ashish06928/SonarQube/_packaging/loginFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ashish06928/d044fcca-1271-427c-9ae4-f765d08dfbd2/_packaging/myfeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.13, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
